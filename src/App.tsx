@@ -15,6 +15,7 @@ import { AuthProvider, useAuth } from './context/AuthContext';
 import NotFound from './pages/NotFound';
 
 // Protected route component
+//comment
 const ProtectedRoute = ({ children, allowedRoles }) => {
   const { user, isAuthenticated } = useAuth();
   
